@@ -1,0 +1,34 @@
+[
+    {
+        "role": "chatbot",
+        "message": "Hello! I'm here to listen and provide support."
+    },
+    {
+        "role": "chatbot",
+        "message": "May I know your name?"
+    },
+    {
+        "role": "user",
+        "message": "User's Name"
+    },
+    {
+        "role": "chatbot",
+        "message": "Nice to meet you, User's Name! How are you feeling today?"
+    },
+    {
+        "role": "user",
+        "message": "User's Mood"
+    },
+    {
+        "role": "chatbot",
+        "message": "You selected your mood as: User's Mood"
+    },
+    {
+        "role": "chatbot",
+        "message": "Why do you feel User's Mood?"
+    },
+    {
+        "role": "user",
+        "message": "User's Explanation"
+    }
+]

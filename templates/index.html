@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <title>MindfulListener</title>
+</head>
+<body>
+    <div class="chat-container">
+        <h1>MindfulListener</h1>
+        <div id="chat-display"></div>
+        <div class="input-container" id="input-container">
+            <input type="text" id="user-input" placeholder="Type your message...">
+            <div id="mood-buttons" style="display: none;">
+                <button onclick="selectMood('good')">Good</button>
+                <button onclick="selectMood('bad')">Bad</button>
+            </div>
+            <button id="send-button">Send</button>
+        </div>
+    </div>
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
+</body>
+</html>
