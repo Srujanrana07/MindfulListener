@@ -27,8 +27,8 @@ l_verb = [  "i", "I", "we", "You", "you", "We", "am", "is", "are", "was", "did",
     
 ]
 
-csv_file = r"C:\Users\sruja\OneDrive\Desktop\Dcode\flask2\myenv\Testdata.csv"
-suggestion_csv_file = r"C:\Users\sruja\OneDrive\Desktop\Dcode\flask2\myenv\disorder_values.csv"
+csv_file = r"Testdata.csv"
+suggestion_csv_file = r"disorder_values.csv"
 
 # Read the CSV files into DataFrames
 df = pd.read_csv(csv_file)

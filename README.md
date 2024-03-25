@@ -24,6 +24,7 @@ cd myenv
 
 4. **Install Dependencies**:
 pip install flask
+
 pip install pandas
 
 5. **Set Up Environment Variables**:
