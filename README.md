@@ -57,6 +57,9 @@ pip install pandas
 ## Usage
 
 Users can interact with the chatbot by typing messages in the chat interface. MindfulListener responds with empathetic messages, provides helpful resources, and suggests coping mechanisms based on the user's input.
+## Deployment
+
+Test the [app](https://mindfullistener-srujanrana.onrender.com)
 
 ## Contributors
 
